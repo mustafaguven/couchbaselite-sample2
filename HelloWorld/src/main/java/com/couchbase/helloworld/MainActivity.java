@@ -25,13 +25,15 @@ import java.util.List;
 public class MainActivity extends Activity
     implements View.OnClickListener, AbstractCouchbaseLiteObject.OnCompletion {
 
-  private static final String DB_NAME = "terminaldb39";
+  private static final String DB_NAME = "terminaldb40";
   ProgressDialog progressDialog;
 
   Button add, delete, update;
   EditText etWhereClause;
   RecyclerView rvProducts;
   Product product;
+  private int completedChangeCount = 0;
+  private static final String TAG = "mainactivity";
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -53,9 +55,10 @@ public class MainActivity extends Activity
     try {
       product = new Product.Builder().setDatabase(getManager().getDatabase(DB_NAME)).build();
       product.setOnCompletion(this);
-      product.getAllItems();
+      //product.getAllItems();
+
       pushToTerminal();
-      pullFromTerminal(); 
+      pullFromTerminal();
     } catch (Exception exception) {
       Toast.makeText(this, exception.getMessage(), Toast.LENGTH_SHORT).show();
     }
@@ -77,15 +80,20 @@ public class MainActivity extends Activity
       pull.addChangeListener(new Replication.ChangeListener() {
         @Override public void changed(Replication.ChangeEvent event) {
           Replication replication = event.getSource();
-          Log.d("COUCHBASE", "Replication : " + replication + " changed.");
+          Log.d(TAG, "Replication : " + replication + " changed.");
           if (!replication.isRunning()) {
             String msg = String.format("Replicator %s not running", replication);
-            Log.d("COUCHBASE", msg);
+            Log.d(TAG, msg);
           } else {
             int processed = replication.getCompletedChangesCount();
             int total = replication.getChangesCount();
             String msg = String.format("Replicator processed %d / %d", processed, total);
-            Log.d("COUCHBASE", msg);
+            Log.d(TAG, msg);
+          }
+
+          completedChangeCount++;
+          if (completedChangeCount % 1000 == 0) {
+            Log.e("COMPLETEDCHANGECOUNT", String.valueOf(completedChangeCount));
           }
 
           if (event.getError() != null) {
@@ -124,11 +132,12 @@ public class MainActivity extends Activity
       progressDialog.show();
       switch (view.getId()) {
         case R.id.add:
-          product.fetchAllProducts();
+          //product.fetchAllProducts();
           /*product.create(new Product.Builder().setBarkod(key)
               .setStokkod(value)
               .setUrunAciklama("yeni urun aciklama")
               .build());*/
+          product.getRowCount();
           break;
         case R.id.delete:
           product.deleteAllProducts();
@@ -146,16 +155,16 @@ public class MainActivity extends Activity
     }
   }
 
-  @Override public void onCompleted(final AbstractCouchbaseLiteObject.EventType eventType,
+  @Override public void onDataReceived(final AbstractCouchbaseLiteObject.EventType eventType,
       final List<AbstractCouchbaseLiteObject> data) {
 
     try {
       if (eventType != AbstractCouchbaseLiteObject.EventType.QUERIED) {
-        Log.d("COUCHBASE", eventType.name());
+        Log.d(TAG, eventType.name());
         product.getAllItems();
       } else {
 
-        Log.e("COUCHBASE", String.valueOf(data.size()));
+        Log.e(TAG, String.valueOf(data.size()));
         final ProductAdapter adapter = new ProductAdapter(data);
         runOnUiThread(new Runnable() {
           @Override public void run() {
@@ -169,6 +178,12 @@ public class MainActivity extends Activity
 
       if (progressDialog != null) progressDialog.dismiss();
     }
+  }
+
+  @Override
+  public void onTotalRowCount(AbstractCouchbaseLiteObject.EventType eventType, int count) {
+    Log.e(TAG, String.valueOf(count));
+    if (progressDialog != null) progressDialog.dismiss();
   }
 }
 

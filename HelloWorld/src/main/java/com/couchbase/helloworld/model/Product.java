@@ -23,6 +23,7 @@ public class Product extends AbstractCouchbaseLiteObject {
   private String barkod;
   private String Stokkod;
   private String UrunAciklama;
+  private String TAG = "Product";
 
   public String getUrunAciklama() {
     return UrunAciklama;
@@ -95,7 +96,7 @@ public class Product extends AbstractCouchbaseLiteObject {
   }
 
   public void deleteAllProducts() throws CouchbaseLiteException {
-    deleteAllDocument("barkod", getDocumentType());
+    deleteAllDocuments("barkod", getDocumentType());
   }
 
   public void fetchAllProducts() throws CouchbaseLiteException {
@@ -166,10 +167,11 @@ public class Product extends AbstractCouchbaseLiteObject {
             e.printStackTrace();
           }
         }
-        notifyWithView(EventType.INSERTED);
+        notifyView(EventType.INSERTED);
         DateTime finish = DateTime.now();
         Seconds seconds = Seconds.secondsBetween(start, finish);
-        Log.e("COUCHBASE", String.format("total created item count is %s in %s sn", ITEM_SIZE,
+
+        Log.e(TAG, String.format("total created item count is %s in %s sn", ITEM_SIZE,
             seconds.getSeconds()));
       }
     };

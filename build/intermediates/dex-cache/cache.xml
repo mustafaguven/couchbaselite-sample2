@@ -2,13 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.5/39a8ff2d1f79267907f5573c090b342b040b9682/aspectjrt-1.8.5.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_ffa10755d1af9596fb0d08a71e8ded9f610f4d02/classes.dex" />
+        sha1="39a8ff2d1f79267907f5573c090b342b040b9682">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/aspectjrt-1.8.5_8e7f828fbe2e98f470ab5561985beccc3e95ca80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-25.0.1_1cd65f5e8b6b5b894a392fbfec6df0b94374326a.jar" />
     </item>
     <item
         is-multidex="true"
@@ -29,22 +38,22 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/okhttp-3.3.1_da7afd788821c636077558f218186417b0df7286/classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/okhttp-3.3.1_da7afd788821c636077558f218186417b0df7286.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_a68c353835f70aece3b28e0b0b56e153752d340f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_fbb777f0f1c6ae570ec2eef293df8a7f712d57f8/classes.dex" />
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-media-compat-25.0.1_a68c353835f70aece3b28e0b0b56e153752d340f.jar" />
     </item>
     <item
         is-multidex="true"
@@ -57,15 +66,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_c60fa9c951d6104611173707e1fa48b34b7ef173/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/incremental-classes/defaultFlavor/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -74,13 +74,22 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/instant-run-bootstrap_22016df0fae1dddb50fbe7037d875bdbc66cd098/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/incremental-classes/defaultFlavor/debug/instant-run-bootstrap.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/incremental-runtime-classes/defaultFlavor/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="007fcc40b190d718a1eb8fb5587481c5e09f9a0f">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/instant-run-bootstrap_96ec56e68df80120c46a40326cbc2f539bec3f7c/classes.dex" />
+        sha1="2308988b3b8be030c05edcb17b19361b0f7e978b">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/instant-run_5c4c95319554f6d7ef420d56fcb30dca1b65f3c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-appcompat-v7-25.0.1_c60fa9c951d6104611173707e1fa48b34b7ef173.jar" />
     </item>
     <item
         is-multidex="true"
@@ -92,40 +101,31 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/jackson-core-2.5.0_dad3adac7402f10dd8fe88509f4fb15afbc7e873/classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.6/e370a92153bf66da17549ecc78c69ec6c6ec9f41/joda-time-2.9.6.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e370a92153bf66da17549ecc78c69ec6c6ec9f41">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/joda-time-2.9.6_6e65947fa36502219c127a64bbbde9772c403f9e/classes.dex" />
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/joda-time-2.9.6_6e65947fa36502219c127a64bbbde9772c403f9e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/incremental-runtime-classes/defaultFlavor/debug/instant-run.jar"
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.0/b2ece1bd57ac7b4c315b7505b65ac79cb1da4270/jackson-core-2.5.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4879f6564f1286bf26b22233a80b9a1ceaba97b9">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/instant-run_5c4c95319554f6d7ef420d56fcb30dca1b65f3c7/classes.dex" />
+        sha1="b2ece1bd57ac7b4c315b7505b65ac79cb1da4270">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/jackson-core-2.5.0_dad3adac7402f10dd8fe88509f4fb15afbc7e873.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android/1.4-1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="8ef78c3c10ebb497b0f1da93745bcbaf63da7e56">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-1.4-1_b9ac7171785c513153ff19bc35e6249fe8996174/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_1cd65f5e8b6b5b894a392fbfec6df0b94374326a/classes.dex" />
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-25.0.1_8e6c0c3e96b35ad2f55f54b6f663438d783efb0d.jar" />
     </item>
     <item
         is-multidex="true"
@@ -155,6 +155,24 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_ad1e9b414658585aacb42fe9db2d584c6d040d5f/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.github.oxo42/stateless4j/2.4.0/128aca4ace585f0b42faa739d0b968a154debb7a/stateless4j-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="128aca4ace585f0b42faa739d0b968a154debb7a">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/stateless4j-2.4.0_9e0633862d6178828bd775a06b645ad650caa8b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android/1.4-1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ef78c3c10ebb497b0f1da93745bcbaf63da7e56">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.couchbase.lite-couchbase-lite-android-1.4-1_b9ac7171785c513153ff19bc35e6249fe8996174.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
         jumboMode="true"
@@ -164,13 +182,13 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.jakewharton.hugo-hugo-runtime-1.2.1_9e59288232d78f1f6b5cb61bf706edc16cf5bf44/classes.dex" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_054320fca96eed82ac1c8ecf31d16024c5883e4a/classes.dex" />
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-core-utils-25.0.1_054320fca96eed82ac1c8ecf31d16024c5883e4a.jar" />
     </item>
     <item
         is-multidex="true"
@@ -182,13 +200,31 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_ad10218d08cd62c56c53e5612c05593fb4623dff/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/incremental-classes/defaultFlavor/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_d8ac42e911a96583c0bd6f8e8b9012c82ce51682/classes.dex" />
+        sha1="88b9161c5453a638d2cf2d6c5128e23208d4cea4">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/instant-run-bootstrap_96ec56e68df80120c46a40326cbc2f539bec3f7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-animated-vector-drawable-25.0.1_fbb777f0f1c6ae570ec2eef293df8a7f712d57f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-vector-drawable-25.0.1_2eb68d83f029e52585a1a6db216f8f3fa44bc9fa.jar" />
     </item>
     <item
         is-multidex="true"
@@ -218,13 +254,22 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_6e543edac807445e09631b9ba9d1784ede65b4cc/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_2eb68d83f029e52585a1a6db216f8f3fa44bc9fa/classes.dex" />
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-25.0.1_ffa10755d1af9596fb0d08a71e8ded9f610f4d02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.0/489b7552dd3322b63f694122d16ce62c21c303b5/jackson-databind-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="489b7552dd3322b63f694122d16ce62c21c303b5">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/jackson-databind-2.5.0_b6058946680cfaaad663de87a09af62de8d5cfa0.jar" />
     </item>
     <item
         is-multidex="true"
@@ -236,6 +281,15 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-1.4-1_7c8a8beb3351a8ac9d36677954f58caa4ecbfe02/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-25.0.1_d8ac42e911a96583c0bd6f8e8b9012c82ce51682.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
@@ -245,13 +299,13 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_511fd5e051eb52e2a94e257352e6a5ceb5e03109/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-v4-25.0.1_68ad7d7754babe0307d796035065b3e13822636f/classes.dex" />
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-compat-25.0.1_72fa901ccd9af7b2eb6b0115f2887916facd9ef5.jar" />
     </item>
     <item
         is-multidex="true"
@@ -264,15 +318,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_aa8b02be0e97ccc79c9413a07d29b4f436156080/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/incremental-runtime-classes/defaultFlavor/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -281,22 +326,22 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/instant-run_674c71bbd411950d0cf49c65f9856c2e6c2144e1/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-compat-25.0.1_72fa901ccd9af7b2eb6b0115f2887916facd9ef5/classes.dex" />
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/okio-1.8.0_097b5c74fc5c727b8851ad102c7418260f912bba.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android-sqlite-custom/1.4-1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6b761c6a655b52e34a076c411b945378aa2e8eb5">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.couchbase.lite-couchbase-lite-android-sqlite-custom-1.4-1_292b35477db35029006edf0948e2372a06a9f8ca/classes.dex" />
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/support-annotations-25.0.1_edcc0f79180e612c4119cf5734342f34104c7679.jar" />
     </item>
     <item
         is-multidex="true"
@@ -308,6 +353,15 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/okio-1.8.0_097b5c74fc5c727b8851ad102c7418260f912bba/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-recyclerview-v7-25.0.1_1c4899eee0c3724964c016542a8a4156b7df9817.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
         jumboMode="true"
@@ -315,6 +369,24 @@
         revision="25.0.0"
         sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-compat-25.0.1_874b15c82e657206bbdf53f444c582d9855c1fc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-core-ui-25.0.1_aa8b02be0e97ccc79c9413a07d29b4f436156080.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.couchbase.lite/couchbase-lite-android-sqlite-custom/1.4-1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b761c6a655b52e34a076c411b945378aa2e8eb5">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.couchbase.lite-couchbase-lite-android-sqlite-custom-1.4-1_292b35477db35029006edf0948e2372a06a9f8ca.jar" />
     </item>
     <item
         is-multidex="true"
@@ -336,24 +408,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_8e6c0c3e96b35ad2f55f54b6f663438d783efb0d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_1c4899eee0c3724964c016542a8a4156b7df9817/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -362,13 +416,31 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_48d70eed4e3339f90028567666dfda033889b417/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.2.1/b01150795c5cdca1eb7e501bf00f105ff0e31501/hugo-annotations-1.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_a52f4e0e98c0c38e17e26f3f35d51d1c2b4cc13b/classes.dex" />
+        sha1="b01150795c5cdca1eb7e501bf00f105ff0e31501">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/hugo-annotations-1.2.1_65402aaac4d3cef135862fcd95b799bf0f654e03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2a55a3375bc1cef830ca426d68d2ea22961190e">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/jackson-annotations-2.5.0_b6c68af8a0e2f058c57b96734a1258419a914ebf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/.gradle/caches/modules-2/files-2.1/com.couchbase.lite/couchbase-lite-java-core/1.4-1/d1dc77f0273d3b6476d99a40fb9b5dc2b65b64b5/couchbase-lite-java-core-1.4-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d1dc77f0273d3b6476d99a40fb9b5dc2b65b64b5">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/couchbase-lite-java-core-1.4-1_8ed6e796fa9b05405f2c94a4e0787272903b6a07.jar" />
     </item>
     <item
         is-multidex="true"
@@ -378,6 +450,15 @@
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.android.support-support-v4-25.0.1_afd8116cba5945a63319f20a505d5e8fd5f71ae0/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/internal_impl-25.0.1_e7004b16c239accfbd65f58219b21f6bc1f0d321.jar" />
     </item>
     <item
         is-multidex="true"
@@ -398,6 +479,15 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_95298883f04dec2205f99f2f73affd37990a27d8/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.jakewharton.hugo-hugo-runtime-1.2.1_a0688eb8ded3913896f496385de708c5cb49a788.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/mguven/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="true"
@@ -407,22 +497,22 @@
         <dex dex="/Users/mguven/opt/couchbase-lite-tutorial-android/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/support-annotations-25.0.1_edcc0f79180e612c4119cf5734342f34104c7679/classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/internal_impl-25.0.1_e7004b16c239accfbd65f58219b21f6bc1f0d321/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-v4-25.0.1_68ad7d7754babe0307d796035065b3e13822636f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2bac9385ea008561a30419c09e9230a8681b3e09">
-        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/transforms/dex/defaultFlavor/debug/folders/1000/10/com.jakewharton.hugo-hugo-runtime-1.2.1_a0688eb8ded3913896f496385de708c5cb49a788/classes.dex" />
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/mguven/opt/HelloWorld/HelloWorld/build/intermediates/pre-dexed/defaultFlavor/debug/com.android.support-support-fragment-25.0.1_a52f4e0e98c0c38e17e26f3f35d51d1c2b4cc13b.jar" />
     </item>
 
 </items>
